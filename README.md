@@ -2,16 +2,25 @@
 
 基于 vue-cli 与 [tindy2013/subconverter](https://github.com/tindy2013/subconverter) 后端实现的配置自动生成。
 
+此版本为`kunori-kiku`修改的branch，让原本`sub-web`更贴切现在使用
+- 添加了`acl4ssr`和`cutethotw`的配置文件
+- 添加了`auto`和`singbox`的客户端选择
+- 设定`udp`默认开启，防止dns泄露
+- 设定`expand`默认关闭，方便维护规则
+
 ## Table of Contents
 
-- [ChangeLog](#ChangeLog)
-- [Docker](#Docker)
-- [Requirements](#Requirements)
-- [Install](#install)
-- [Usage](#usage)
-- [Related](#Related)
-- [Contributing](#contributing)
-- [License](#license)
+- [sub-web](#sub-web)
+  - [Table of Contents](#table-of-contents)
+  - [ChangeLog](#changelog)
+  - [Docker](#docker)
+  - [Requirements](#requirements)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Deploy](#deploy)
+  - [Related](#related)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## ChangeLog
 
