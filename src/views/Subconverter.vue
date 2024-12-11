@@ -440,7 +440,7 @@ export default {
         nodeList: false,
         extraset: false,
         sort: false,
-        udp: false,
+        udp: true, // set to true as default to avoid dns leak
         tfo: false,
         scv: true,
         fdn: false,
@@ -475,7 +475,7 @@ export default {
       sampleConfig: remoteConfigSample,
       subDocAdvanced: subDocAdvanced,
 
-      needUdp: true, // Default true so as to avoid dns-leak
+      needUdp: false
     };
   },
   created() {
